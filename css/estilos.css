@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+body {
+    overscroll-behavior-y: contain;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
+
 .contenedor {
     width: 95%;
     max-width: 1000px;
