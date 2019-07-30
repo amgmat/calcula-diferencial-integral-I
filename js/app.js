@@ -1,5 +1,5 @@
 var url = window.location.href;
-var swLocation = '/calculo1/sw.js';
+var swLocation = '/calculo-diferencial-integral-I/sw.js';
 
 if (navigator.serviceWorker) {
 
@@ -14,26 +14,26 @@ if (navigator.serviceWorker) {
 
 // Conexion
 
-function isOnline() {
-    if (navigator.onLine) {
-        // tenemos conexion
-        console.log('onLine');
-        // mdtoast('Online', {
-        //     interaction: true,
-        //     interactionTimeout: 1000,
-        //     actionText: 'OK'
-        // });
-    } else {
-        // console.log('offline');
-        mdtoast('Offline', {
-            interaction: true,
-            actionText: 'OK',
-            type: 'warning'
-        });
-    }
-}
+// function isOnline() {
+//     if (navigator.onLine) {
+//         // tenemos conexion
+//         console.log('onLine');
+//         // mdtoast('Online', {
+//         //     interaction: true,
+//         //     interactionTimeout: 1000,
+//         //     actionText: 'OK'
+//         // });
+//     } else {
+//         // console.log('offline');
+//         mdtoast('Offline', {
+//             interaction: true,
+//             actionText: 'OK',
+//             type: 'warning'
+//         });
+//     }
+// }
 
-window.addEventListener('conectado', isOnline);
-window.addEventListener('sin conexión', isOnline);
+// window.addEventListener('conectado', isOnline);
+// window.addEventListener('sin conexión', isOnline);
 
-isOnline();
+// isOnline();

@@ -12,17 +12,15 @@ const APP_SHELL = [
     'css/estilos.css',
     'img/fractal3.jpg',
     'img/frase.jpg',
+    'img/favicon.png',
     'js/app.js',
-    'js/sw-utils.js',
-    'img/favicon.png'
+    'js/sw-utils.js'
 
 ];
 
 const APP_SHELL_INMUTABLE = [
-    'js/all.js',
-    'css/all.css',
     'js/libs/plugins/mdtoast.min.css',
-    'js/libs/plugins/mdtoast.min.js',
+    'js/libs/plugins/mdtoast.min.js'
 
 ];
 
