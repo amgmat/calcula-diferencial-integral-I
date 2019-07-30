@@ -58,7 +58,7 @@ header li .children {
     display: none;
     position: absolute;
     background: #000;
-    width: 215%;
+    width: 235%;
     z-index: 1000;
 }
 
@@ -252,8 +252,7 @@ header .sitios .enlaces li a:hover {
     }
     header .mensaje .bienvenida {
         text-align: center;
-        font-size: 14px;
-        /* top: 50%; */
+        font-size: 16px;
     }
     header .sitios {
         font-size: 14px;
