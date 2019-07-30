@@ -246,8 +246,8 @@ header .sitios .enlaces li a:hover {
         font-size: 12px;
         margin-top: 90px;
     }
-    header ul li {
-        font-size: 8px;
+    header li {
+        font-size: 12px;
         font-weight: 100;
     }
     header .mensaje .bienvenida {
@@ -256,12 +256,12 @@ header .sitios .enlaces li a:hover {
         /* top: 50%; */
     }
     header .sitios {
-        font-size: 15px;
+        font-size: 14px;
         top: 60%;
     }
     header .sitios .enlaces {
-        font-size: 15px;
-        margin: 16px;
+        font-size: 14px;
+        margin: 14px;
     }
     header .correos {
         font-size: 16px;
