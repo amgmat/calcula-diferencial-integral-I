@@ -8,6 +8,7 @@ if (navigator.serviceWorker) {
     }
     // navigator.serviceWorker.register('/sw.js');
     navigator.serviceWorker.register(swLocation);
+    // console.log('Podemos usar SW');
 }
 
 
@@ -32,7 +33,7 @@ function isOnline() {
     }
 }
 
-window.addEventListener('online', isOnline);
-window.addEventListener('offline', isOnline);
+window.addEventListener('conectado', isOnline);
+window.addEventListener('sin conexión', isOnline);
 
 isOnline();

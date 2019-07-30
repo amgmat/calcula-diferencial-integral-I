@@ -1,0 +1,46 @@
+{
+    "short_name": "Cálculo",
+    "name": "Cálculo Diferencial",
+    "start_url": "index.html",
+    "background_color": "#8A0808",
+    "theme_color": "#8A0808",
+    "display": "standalone",
+    "orientation": "portrait",
+    "icons": [{
+            "src": "img/icons/icon-72x72.png",
+            "type": "image/png",
+            "sizes": "72x72"
+        },
+
+        {
+            "src": "img/icons/icon-96x96.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "img/icons/icon-144x144.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "img/icons/icon-144x144.png",
+            "type": "image/png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "img/icons/icon-152x152.png",
+            "type": "image/png",
+            "sizes": "152x152"
+        },
+        {
+            "src": "img/icons/icon-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "img/icons/icon-384x384.png",
+            "type": "image/png",
+            "sizes": "310x310"
+        }
+    ]
+}
