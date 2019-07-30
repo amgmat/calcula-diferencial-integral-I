@@ -242,8 +242,8 @@ header .sitios .enlaces li a:hover {
         padding: 0px;
     }
     header .titulo {
-        margin: 30px 0px;
-        font-size: 13px;
+        margin: 25px 0px;
+        font-size: 12px;
         margin-top: 90px;
     }
     header ul li {
@@ -269,5 +269,8 @@ header .sitios .enlaces li a:hover {
     }
     header .correos p {
         margin: 5px;
+    }
+    .main .frase img {
+        width: 300px;
     }
 }
