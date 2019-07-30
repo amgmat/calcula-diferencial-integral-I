@@ -13,7 +13,8 @@ const APP_SHELL = [
     'img/fractal3.jpg',
     'img/frase.jpg',
     'js/app.js',
-    'js/sw-utils.js'
+    'js/sw-utils.js',
+    'img/favicon.png'
 
 ];
 
@@ -21,7 +22,8 @@ const APP_SHELL_INMUTABLE = [
     'js/all.js',
     'css/all.css',
     'js/libs/plugins/mdtoast.min.css',
-    'js/libs/plugins/mdtoast.min.js'
+    'js/libs/plugins/mdtoast.min.js',
+
 ];
 
 self.addEventListener('install', e => {
