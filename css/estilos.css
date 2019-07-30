@@ -91,7 +91,7 @@ header .menu li a {
     display: block;
     text-decoration: none;
     color: #fff;
-    transition: all 1500ms;
+    /* transition: all 1500ms; */
 }
 
 header .mensaje {
