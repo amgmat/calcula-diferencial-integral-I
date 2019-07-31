@@ -28,7 +28,7 @@ header {
 
 header .contenedor {
     position: relative;
-    height: 530px;
+    height: 570px;
 }
 
 header .titulo {
@@ -65,7 +65,7 @@ header li .children {
     display: none;
     position: absolute;
     background: #000;
-    width: 235%;
+    width: 180%;
     z-index: 1000;
 }
 
@@ -183,7 +183,7 @@ header .sitios .enlaces li a:hover {
 
 @media screen and (max-width: 800px) {
     header {
-        background-size: 915px 640px;
+        background-size: 920px 640px;
     }
     header .titulo {
         font-size: 18px;
@@ -245,8 +245,6 @@ header .sitios .enlaces li a:hover {
     } */
     header .menu {
         text-align: center;
-        margin: 0px;
-        padding: 0px;
     }
     header .titulo {
         margin: 25px 0px;
@@ -254,12 +252,13 @@ header .sitios .enlaces li a:hover {
         margin-top: 90px;
     }
     header li {
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 100;
+        margin: 20px 5px;
     }
     header .mensaje .bienvenida {
         text-align: center;
-        font-size: 16px;
+        font-size: 18px;
     }
     header .sitios {
         font-size: 14px;
