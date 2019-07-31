@@ -203,7 +203,7 @@ header .sitios .enlaces li a:hover {
 
 @media screen and (max-width: 600px) {
     header {
-        background-size: 900px 550px;
+        background-size: 900px 600px;
     }
     header .titulo {
         margin: 40px 0px;
