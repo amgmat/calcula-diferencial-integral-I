@@ -2,12 +2,12 @@ importScripts('js/sw-utils.js');
 
 // console.log('Hola');
 
-const STATIC_CACHE = 'static-v4';
+const STATIC_CACHE = 'static-v6';
 const DYNAMIC_CACHE = 'dynamic-v1';
 const INMUTABLE_CACHE = 'inmutable-v1';
 
 const APP_SHELL = [
-    // '/',
+    '/',
     'index.html',
     'css/estilos.css',
     'img/fractal3.jpg',
