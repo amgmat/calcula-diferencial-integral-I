@@ -102,15 +102,20 @@ header .mensaje {
     top: 60%;
 }
 
+header .mensajem {
+    display: none;
+}
+
 header .mensaje .bienvenida {
     text-align: center;
     font-size: 25px;
 }
 
-header .mensaje a {
+
+/* header .mensaje a {
     text-decoration: none;
     color: #fff;
-}
+} */
 
 header .correos {
     width: 100%;
@@ -262,7 +267,17 @@ header .sitios .enlaces li a:hover {
     header li .children {
         width: 155%;
     }
-    header .mensaje .bienvenida {
+    header .mensaje {
+        display: none;
+    }
+    header .mensajem {
+        display: block;
+        width: 100%;
+        color: #fff;
+        position: absolute;
+        top: 55%;
+    }
+    header .mensajem .bienvenidam {
         text-align: center;
         font-size: 18px;
     }
