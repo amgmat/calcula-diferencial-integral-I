@@ -28,7 +28,7 @@ header {
 
 header .contenedor {
     position: relative;
-    height: 570px;
+    height: 660px;
 }
 
 header .titulo {
@@ -122,15 +122,15 @@ header .correos {
     color: #fff;
     font-size: 20px;
     position: absolute;
-    top: 58%;
+    top: 54%;
 }
 
 header .correos p {
-    margin: 9px;
+    margin: 8px;
 }
 
 header .correos a {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: #fff;
 }
 
@@ -210,6 +210,9 @@ header .sitios .enlaces li a:hover {
     header {
         background-size: 900px 600px;
     }
+    header .contenedor {
+        height: 580px;
+    }
     header .titulo {
         margin: 40px 0px;
         font-size: 15px;
@@ -240,17 +243,21 @@ header .sitios .enlaces li a:hover {
     }
     header .correos {
         font-size: 18px;
-        top: 55%;
+        top: 52%;
     }
     header .correos p {
         margin: 8px;
     }
+    .main iframe {
+        height: 500px;
+        width: 400px;
+    }
 }
 
 @media screen and (max-width: 400px) {
-    /* header {
-        background-size: 750px 500px;
-    } */
+    header .contenedor {
+        height: 600px;
+    }
     header .menu {
         text-align: center;
     }
@@ -291,10 +298,14 @@ header .sitios .enlaces li a:hover {
     }
     header .correos {
         font-size: 16px;
-        top: 60%;
+        top: 56%;
     }
     header .correos p {
         margin: 5px;
+    }
+    .main iframe {
+        height: 390px;
+        width: 314px;
     }
     .main .frase img {
         width: 300px;
