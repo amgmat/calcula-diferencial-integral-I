@@ -126,7 +126,7 @@ header .correos {
 }
 
 header .correos p {
-    margin: 8px;
+    margin: 5px;
 }
 
 header .correos a {
@@ -183,7 +183,7 @@ header .tareas h2 {
 }
 
 .main p {
-    padding: 10px;
+    padding: 20px;
 }
 
 .main li {
@@ -261,7 +261,7 @@ header .tareas h2 {
     }
     header .correos {
         font-size: 18px;
-        top: 52%;
+        top: 48%;
     }
     header .correos p {
         margin: 8px;
@@ -317,7 +317,7 @@ header .tareas h2 {
     }
     header .correos {
         font-size: 16px;
-        top: 56%;
+        top: 52%;
     }
     header .correos p {
         margin: 5px;
