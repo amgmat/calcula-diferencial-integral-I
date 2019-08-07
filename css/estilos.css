@@ -144,7 +144,7 @@ header .sitios {
 }
 
 header .sitios .enlaces {
-    text-decoration: none;
+    /* text-decoration: none; */
     color: #fff;
     font-size: 25px;
 }
@@ -163,6 +163,10 @@ header .sitios .enlaces li a:hover {
 .main .contenedor {
     width: 90%;
     background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+}
+
+.main h2 {
     padding: 20px;
 }
 
