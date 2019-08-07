@@ -143,6 +143,14 @@ header .sitios {
     margin: 20px;
 }
 
+header .tareas {
+    width: 100%;
+    color: #fff;
+    font-size: 22px;
+    position: absolute;
+    top: 65%;
+}
+
 header .sitios .enlaces {
     /* text-decoration: none; */
     color: #fff;
@@ -151,6 +159,10 @@ header .sitios .enlaces {
 
 header .sitios .enlaces li a:hover {
     text-decoration: underline;
+}
+
+header .tareas h2 {
+    text-align: center;
 }
 
 .main {
@@ -201,7 +213,8 @@ header .sitios .enlaces li a:hover {
         font-size: 20px;
         /* top: 50%; */
     }
-    header .sitios {
+    header .sitios,
+    header .tareas {
         font-size: 18px;
         top: 65%;
     }
@@ -239,8 +252,9 @@ header .sitios .enlaces li a:hover {
         font-size: 20px;
         /* top: 50%; */
     }
-    header .sitios {
-        top: 65%;
+    header .sitios,
+    header .tareas {
+        top: 50%;
     }
     header .sitios .enlaces {
         font-size: 18px;
@@ -292,7 +306,8 @@ header .sitios .enlaces li a:hover {
         text-align: center;
         font-size: 18px;
     }
-    header .sitios {
+    header .sitios,
+    header .tareas {
         font-size: 14px;
         top: 60%;
     }
