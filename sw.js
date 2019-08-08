@@ -2,7 +2,7 @@ importScripts('js/sw-utils.js');
 
 // console.log('Hola');
 
-const STATIC_CACHE = 'static-v6';
+const STATIC_CACHE = 'static-v7';
 const DYNAMIC_CACHE = 'dynamic-v4';
 const INMUTABLE_CACHE = 'inmutable-v1';
 
@@ -17,7 +17,8 @@ const APP_SHELL = [
     'img/frase.jpg',
     'img/favicon.png',
     'js/app.js',
-    'js/sw-utils.js'
+    'js/sw-utils.js',
+    'https://drive.google.com/file/d/1vGzc4JhTuhtSXD3rO8ZgnnurnKh7wA29/preview'
 
 ];
 
