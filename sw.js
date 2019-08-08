@@ -2,9 +2,9 @@ importScripts('js/sw-utils.js');
 
 // console.log('Hola');
 
-const STATIC_CACHE = 'static-v8';
-const DYNAMIC_CACHE = 'dynamic-v4';
-const INMUTABLE_CACHE = 'inmutable-v2';
+const STATIC_CACHE = 'static-v2';
+const DYNAMIC_CACHE = 'dynamic-v1';
+const INMUTABLE_CACHE = 'inmutable-v1';
 
 const APP_SHELL = [
     '/',
@@ -17,15 +17,15 @@ const APP_SHELL = [
     'img/frase.jpg',
     'img/favicon.png',
     'js/app.js',
-    'js/sw-utils.js'
+    'js/sw-utils.js',
+    'https://drive.google.com/file/d/1vGzc4JhTuhtSXD3rO8ZgnnurnKh7wA29/preview'
 
 
 ];
 
 const APP_SHELL_INMUTABLE = [
     'js/libs/plugins/mdtoast.min.css',
-    'js/libs/plugins/mdtoast.min.js',
-    'https://drive.google.com/file/d/1vGzc4JhTuhtSXD3rO8ZgnnurnKh7wA29/preview'
+    'js/libs/plugins/mdtoast.min.js'
 
 ];
 
