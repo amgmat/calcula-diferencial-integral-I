@@ -23,6 +23,8 @@ function isOnline() {
             interactionTimeout: 1000,
             actionText: 'OK'
         });
+
+
     } else {
         // console.log('offline');
         mdtoast('Offline', {

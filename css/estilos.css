@@ -165,7 +165,8 @@ header .tareas h2 {
     text-align: center;
 }
 
-.main {
+.main,
+.main2 {
     background: url("../img/espiral.png");
     color: #fff;
     font-size: 18px;
