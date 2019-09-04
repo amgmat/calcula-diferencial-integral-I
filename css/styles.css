@@ -1,0 +1,352 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    overscroll-behavior-y: contain;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    background: url("../img/fractal3.jpg");
+    background-size: 970px 680px;
+    background-attachment: fixed;
+    background-position: center 0;
+}
+
+.contenedor {
+    width: 95%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+    /* background: rgba(53, 103, 164, 0.8); */
+    /* background: url("../img/fractal3.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center 0; */
+}
+
+header .contenedor {
+    position: relative;
+    height: 300px;
+}
+
+header .titulo {
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    /* top: 45%; */
+    margin: 40px 0px;
+    font-size: 25px;
+    text-align: right;
+}
+
+header .menu {
+    width: 90%;
+    text-align: left;
+    margin: 20px;
+    padding: 20px;
+}
+
+header li {
+    font-size: 20px;
+    font-weight: 300;
+    display: inline-block;
+    margin: 40px 10px;
+    text-align: right;
+    position: relative;
+}
+
+header .menu li a {
+    color: #fff;
+}
+
+header li .children {
+    display: none;
+    position: absolute;
+    background: #000;
+    width: 170%;
+    z-index: 1000;
+}
+
+header li .children li {
+    display: block;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+header li:hover .children {
+    display: block;
+}
+
+header .menu li a {
+    text-decoration: none;
+}
+
+header .menu li a:hover {
+    text-decoration: underline;
+}
+
+header .sitios .enlaces li a:hover {
+    text-decoration: underline;
+}
+
+*/ header .tareas h2 {
+    text-align: center;
+}
+
+.inicio {
+    background-size: 90%;
+    background-attachment: fixed;
+    background-position: center 0;
+    height: 360px;
+}
+
+.inicio .mensaje {
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+    padding: 60px;
+}
+
+.inicio .mensajem {
+    display: none;
+}
+
+.inicio .mensaje .bienvenida {
+    text-align: center;
+    font-size: 25px;
+}
+
+.contacto .correos {
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px 30px;
+    ;
+    /* position: absolute;
+    top: 54%; */
+}
+
+.contacto .correos p {
+    margin: 5px;
+}
+
+.contacto .correos a {
+    /* text-decoration: none; */
+    color: #fff;
+}
+
+.webs .sitios {
+    width: 100%;
+    color: #fff;
+    font-size: 22px;
+    padding: 20px 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* margin: 20px; */
+}
+
+.webs .sitios .enlaces {
+    color: #fff;
+    font-size: 25px;
+    /* margin: 10px; */
+    padding: 15px;
+    text-decoration: none;
+}
+
+.webs .sitios p {
+    margin: 10px;
+}
+
+.webs .sitios .enlaces:hover {
+    text-decoration: underline;
+}
+
+.guias {
+    padding: 50px 60px;
+}
+
+.guias .tareas {
+    width: 100%;
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.guias .tareas p {
+    margin: 10px;
+}
+
+.main,
+.main2 {
+    background: url("../img/espiral.png");
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+
+.main .contenedor {
+    width: 90%;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+}
+
+.main h2 {
+    padding: 20px;
+}
+
+.main p {
+    padding: 20px;
+}
+
+.main li {
+    padding: 15px;
+    text-align: left;
+}
+
+.main .frase img {
+    width: 400px;
+}
+
+.copyright {
+    background: #2e2e2e;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        background-size: 940px 660px;
+    }
+    header .titulo {
+        font-size: 18px;
+    }
+    .inicio .mensaje .bienvenida {
+        font-size: 20px;
+        /* top: 50%; */
+    }
+    .webs .sitios,
+    .guias .tareas {
+        font-size: 18px;
+        /* top: 65%; */
+    }
+    .webs .sitios .enlaces {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header .titulo {
+        margin: 40px 0px;
+        font-size: 15px;
+        margin-top: 80px;
+        text-align: center;
+    }
+    header .menu {
+        text-align: center;
+        margin: 5px;
+        padding: 5px;
+    }
+    header li {
+        font-size: 17px;
+        margin: 20px 10px;
+    }
+    header li .children {
+        width: 170%;
+    }
+    .webs .sitios {
+        padding: 10px 20px;
+        /* margin: 20px; */
+    }
+    .webs .sitios .enlaces {
+        font-size: 18px;
+    }
+    .contacto .correos {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+    .contacto .correos p {
+        margin: 8px;
+    }
+    .main iframe {
+        height: 500px;
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        background-size: 900px 620px;
+    }
+    header .contenedor {
+        height: 250px;
+    }
+    header .menu {
+        text-align: center;
+    }
+    header .titulo {
+        margin: 25px 0px;
+        font-size: 12px;
+        margin-top: 90px;
+    }
+    header li {
+        font-size: 14px;
+        font-weight: 100;
+        margin: 20px 5px;
+    }
+    header li .children {
+        width: 155%;
+    }
+    .webs .sitios {
+        font-size: 14px;
+        padding: 5px 5px;
+        /* top: 60%; */
+    }
+    .webs .sitios {
+        padding-bottom: 45px;
+    }
+    .webs .sitios .enlaces {
+        font-size: 14px;
+        margin: 5px;
+    }
+    .contacto .correos {
+        font-size: 16px;
+        padding-left: 5px;
+    }
+    .inicio .mensaje {
+        display: none;
+    }
+    .inicio .mensajem {
+        display: block;
+        width: 100%;
+        color: #fff;
+        position: absolute;
+        top: 45%;
+    }
+    .inicio .mensajem .bienvenidam {
+        text-align: center;
+        font-size: 18px;
+    }
+    .guias {
+        padding: 30px 30px;
+    }
+    .guias .tareas {
+        font-size: 16px;
+    }
+    .main iframe {
+        height: 390px;
+        width: 314px;
+    }
+    .main .frase img {
+        width: 300px;
+    }
+}
